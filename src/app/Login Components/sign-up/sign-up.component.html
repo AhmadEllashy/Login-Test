@@ -1,0 +1,27 @@
+<label>UserName</label>
+<input type="text" [(ngModel)]="userName" placeholder="Enter Your UserName">
+<label>Password</label>
+<input type="text" [(ngModel)]="password" placeholder="Enter Your Password">
+<label>Email</label>
+<input type="text" [(ngModel)]="email" placeholder="Enter Your email">
+<label>Age</label>
+<input type="text" [(ngModel)]="age" placeholder="Enter Your Age">
+
+
+
+<!-- <form class="example-form">
+  <mat-form-field class="example-full-width">
+    <MatFormFieldControl>
+    <input type="text" placeholder="Pick one" aria-label="Number" matInput [formControl]="myControl" [matAutocomplete]="auto">
+    <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+      <mat-option *ngFor="let option of filteredOptions | async" [value]="option">
+        {{option}}
+      </mat-option>
+    </mat-autocomplete>
+  </MatFormFieldControl>
+  </mat-form-field>
+</form> -->
+
+
+
+<button (click)="signUp()">Save</button>
